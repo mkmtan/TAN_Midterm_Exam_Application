@@ -10,18 +10,24 @@
         <style>
             body    {
             background-color: rgb(147, 216, 147);
+            margin: 10px;
             }
         </style>
 
     </head>
     <body>
-        <di>
+        <div>
+            <hr>
             <center>
                 <h1> Boku no Hero Academia </h1>
                 <p>Author: {{ $Author }}</p>
                 <p>Favorite Character: {{ $Favorite }}</p> 
                 <p>Gender: {{ $Gender }}</p> 
+                <p>Duo: {{ $Bestie }}</p> 
             </center>
+            <hr>
         </div>
+
+        
     </body>
 </html>

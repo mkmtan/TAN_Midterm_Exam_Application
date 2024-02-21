@@ -10,7 +10,8 @@ class ProductController extends Controller
         $data = array(
             'Author' => "Kohei Horikoshi",
             'Favorite' => "Midoriya Izuku",
-            'Gender' => "M"
+            'Gender' => "M",
+            'Bestie'=> "Kaa-chan"
         );
         return view('anime', $data);
     }
